@@ -172,17 +172,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 100px;
   margin: 40px 0;
   flex-wrap: wrap;
 }
 
 .sponsor {
   display: inline-block;
-  width: 180px;
+  width: 120px;
   height: 90px;
-  background: url("Logotypes.png") no-repeat;
-  background-size: 900px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   opacity: 0.9;
   transition: opacity 0.3s, transform 0.3s;
 }
@@ -192,17 +193,17 @@ body {
   transform: scale(1.1);
 }
 
-.sponsor-amazon   { background-position:    0   0; }
-.sponsor-dribbble { background-position: -180px 0; }
-.sponsor-hubspot  { background-position: -360px 0; }
-.sponsor-notion   { background-position: -540px 0; }
-.sponsor-gumroad  { background-position: -720px 0; }
+.sponsor-amazon   { background-image: url("amazon.png"); }
+.sponsor-dribbble { background-image: url("dribbble.png"); }
+.sponsor-hubspot  { background-image: url("hubspot.png"); }
+.sponsor-notion   { background-image: url("notion.png"); }
+.sponsor-gumroad  { background-image: url("gumroad.png"); }
 
 @media (max-width: 480px) {
   .sponsors {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
   }
 }
 

@@ -6,6 +6,7 @@ body {
 }
 
 /* ==================================================================================================  */
+/* Mustafa Part */
 
 .navbar {
   display: flex;
@@ -222,6 +223,8 @@ body {
 }
 
 /* ==================================================================================================  */
+/* Manar part */
+
 
 #container {
   overflow-x: hidden;
@@ -417,3 +420,105 @@ td input:hover {
 }
 
 /* ==================================================================================================  */
+/* Sara abd elmoniem */
+
+
+.speakersContainer {
+  display: grid;
+  grid-template-columns: repeat(4,25%);
+  gap: 20px;
+  grid-template-rows: repeat(3, auto);
+  margin: 100PX;
+}
+
+.speakersContainer div {
+ background: #868686;
+ border-radius: 50px;
+ color: black;
+ height: 400px;
+ padding: 20px;
+}
+.Speakers{
+ grid-column: 1/4;
+ grid-row: 1;
+ font-size: 60px;
+}
+.speakersContainer p {
+margin-top: 50px;
+}
+.speaker {
+ filter: grayscale(100%);
+}
+.speaker.one{
+ background-image: url("pictures/emily.jpg"); 
+ background-size: cover;
+}
+.speaker.two{
+ background-image: url("pictures/elon.jpg");
+ background-size: cover;
+}
+.speaker.three{
+ background-image: url("pictures/laura.jpg");
+ background-size: cover;
+}
+.speaker.four{
+ background-image: url("pictures/alan.jpg");
+ background-size: cover;
+}
+
+.speaker.five{
+ background-image: url("pictures/morad.jpg"); 
+ background-size: cover;
+}
+.speaker.six{
+ background-image: url("pictures/mark.jpg");
+ background-size: cover;
+}
+.named{
+ position: relative;
+ top: 0px;
+ left: 10px;
+ font-size: 34px;
+}
+.disc{
+ position: relative;
+ top: 20px;
+ left: 10px;
+ font-size: 18px;
+}
+.hidden {
+  display: none;
+}
+
+.load-more-btn {
+    border: 1px solid white;
+    color: white;
+    background:black; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s ease;
+}
+.load-more-btn:hover {
+    transform: scale(1.2,1.2);
+}
+.hidden-text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+.hidden-text:hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* ================================================================================================== */

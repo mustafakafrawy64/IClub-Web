@@ -159,7 +159,7 @@ body {
   position: absolute;
   width: 70%;
   height: 70%;
-  background: url("B1.png") no-repeat center/contain;
+  background: url("pictures/B1.png") no-repeat center/contain;
   top: 65%;
   right: -5%;
   transform: translateY(-50%);
@@ -194,23 +194,23 @@ body {
 }
 
 .sponsor-amazon {
-  background-image: url("amazon.png");
+  background-image: url("pictures/amazon.png");
 }
 
 .sponsor-dribbble {
-  background-image: url("dribbble.png");
+  background-image: url("pictures/dribbble.png");
 }
 
 .sponsor-hubspot {
-  background-image: url("hubspot.png");
+  background-image: url("pictures/hubspot.png");
 }
 
 .sponsor-notion {
-  background-image: url("notion.png");
+  background-image: url("pictures/notion.png");
 }
 
 .sponsor-gumroad {
-  background-image: url("gumroad.png");
+  background-image: url("pictures/gumroad.png");
 }
 
 @media (max-width: 480px) {
@@ -272,12 +272,13 @@ h2 {
 }
 
 #input {
+  width: 80%;
   padding: 2%;
   margin-left: 7%;
   font-size: 20px;
-  border-color: white;
-  background: #1d4ed8;
-  border-radius: 30px;
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 40px;
   color: white;
 }
 
@@ -372,7 +373,7 @@ td input:hover {
 }
 
 #imgTable {
-  background-image: url('Mark.png');
+  background-image: url('pictures/Mark.png');
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: 30%;

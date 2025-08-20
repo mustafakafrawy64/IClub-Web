@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nexus</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="all.css">
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
 </head>
 <body>
 
@@ -169,10 +172,153 @@
     <button id="andMoreBtn" class="load-more-btn">see more &gt;</button>
 </div>
 
+<!-----------------------------------------------------------------------------------------  -->
+<!-- Sara Gamal Part -->
+ <section class="why-attend">
+    <div class="container">
+  <h2 class="subtitle">WHY ATTEND?</h2>
+  <p class="subtitle">Discover why Next-Gen AI Summit is the must-attend event for AI professionals, innovators, and industry leaders.</p>
+    </div>
+  <div class="cards_s">
+    <div class="card_s">
+      <span class="number">01</span>
+      <div class="content">
+        <h4>Cutting-Edge Insights</h4>
+        <p>Gain firsthand knowledge from top AI experts and pioneers shaping the industry.</p>
+      </div>
+    </div>
+
+    <div class="card_s">
+      <span class="number">02</span>
+      <div class="content">
+        <h4>Hands-On Learning</h4>
+        <p>Participate in interactive workshops, live demos, and deep-dive sessions to sharpen your skills.</p>
+      </div>
+    </div>
+
+    <div class="card_s">
+      <span class="number">03</span>
+      <div class="content">
+        <h4>Exclusive Networking</h4>
+        <p>Connect with AI leaders, investors, startups, and fellow professionals at curated networking events.</p>
+      </div>
+    </div>
+
+    <div class="card_s">
+      <span class="number">04</span>
+      <div class="content">
+        <h4>Innovation Showcase</h4>
+        <p>Explore groundbreaking AI solutions, from emerging startups to tech giants redefining the future.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-----------------------------------------------------------------------------------------  -->
+<!-- Rawan Osama Part -->
+
+
+<section class="past_attendees">
+
+        <div class="past_attendees-heading">
+            <h2 class="past_attendees">What Past Attendees Say</h2>
+
+            <div class="past-btns">
+                <button class="prevbtn" id="prev"><i class="fas fa-arrow-left"></i></button>
+                <button class="nextbtn" id="next"><i class="fas fa-arrow-right"></i></button>
+            </div> <!--/past-btns-->
+
+        </div> <!--/past_attendees-->
+
+        <div class="past_attendees-cards">
+
+            <div class="carousel-track">
+
+                <div class="dark-card card col-md-4 col-lg-3 col-12">
+
+                    <h3 class="card-h3">Game-CHANGING<br>INSIGHTS</h3>
+                    <p class="card-para">"THis summit opened my eyes to the AI and how it will shape indystries in the
+                        future."
+                    </p>
+                    <div class="profile">
+                        <img class="person-img" src="pictures/person1.png" alt="Person">
+                        <div class="person-title">
+                            <h5 class="person-name">John Doe</h5>
+                            <p class="person-job">CTO, NeuralTech</p>
+                        </div><!--/person-title-->
+                    </div><!--/person-info-->
+
+                </div> <!--/next-->
+
+                <div class="blue-card card  col-md-4 col-lg-3 col-12">
+                    <h3 class="card-h3">The BEST AI<br>EVENT!</h3>
+                    <p class="card-para">"Incredible speakers , top-tier networking and cutting-edge discussions all in
+                        one
+                        place."
+                    </p>
+                    <div class="profile">
+                        <img class="person-img" src="pictures/person2.png" alt="Person">
+                        <div class="person-title">
+                            <h5 class="person-name">Elena Rojas</h5>
+                            <p class="person-job">AI Researcher , DeepMind</p>
+                        </div> <!--/person-title-->
+                    </div><!--/person-info-->
+                </div> <!--/currnt-->
+
+                <div class="light-card card col-lg-3 col-12">
+                    <h3 class="card-h3">UNMATCHED <br>OPPORTUNITIES</h3>
+                    <p class="card-para">"From hands-on workshops to visionary talks , this summit is a must-attend for
+                        AI
+                        professionals."
+                    </p>
+                    <div class="profile">
+                        <img class="person-img" src="pictures/person3.png" alt="Person">
+                        <div class="person-title">
+                            <h5 class="person-name">David Laurent </h5>
+                            <p class="person-job">CEO, Future AI labs</p>
+                        </div> <!--/person-title-->
+                    </div><!--/person-info-->
+                </div><!--/prev-->
+
+
+            </div><!--/carousel-track-->
+
+    </section> <!--/past_attendees-->
 
 
 
-<script src="script.js"></script>
+    <!-- ====================== Register ============================= -->
+
+    <section class="register">
+
+        <div class="register-container autoShow">
+
+            <div class="register-heading">
+                <h2 class="register">REGISTER<br>NOW</h2>
+                <p class="register-para">Secure your spot at the Next-Gen<br>AI Summit 2052 amd join the <br>future of
+                    AI innovation</p>
+            </div> <!--/register-heading-->
+
+            <div class="register-div">
+                <P class="register-div-para">Early Bird Pricing Ends In:</P>
+                <p class="count-down" id="countdown">
+                    <span id="dd">--</span> : <span id="hh">--</span> : <span id="mm">--</span>
+                    <!--/: <span id="ss">--</span> -->
+                </p>
+                <p class="count-down-para"> <span>DAYS</span>
+                    <span>HOURS</span>
+                    <span>MINUTES</span>
+                    <!-- <span>SECONDS</span> -->
+                </p>
+            </div> <!--/register-div-->
+
+        </div> <!--/register-container-->
+    </section> <!--/register-->
+
+    <script src="script.js"></script>
+    <script src="countdown.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
